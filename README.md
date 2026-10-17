@@ -1,4 +1,4 @@
-# Automobilista 2 Setup Optimizer
+# Automobilista 2 Setup Optimizer – v0.71
 © 2026 MaDDoX · "The Game Central"
 
 Ein Renningenieur für den zweiten Bildschirm. Das Tool liest während der Fahrt die Telemetrie von Automobilista 2 (AMS2) und hilft dir, deine Reifen im Rennen optimal zu nutzen.
@@ -50,7 +50,7 @@ Ein Renningenieur für den zweiten Bildschirm. Das Tool liest während der Fahrt
 ## Installation
 
 1. Einen eigenen Ordner anlegen, z. B. `D:\AMS2 Setup Optimizer`.
-2. **AMS2-Setup-Optimizer_v0.615.exe** hineinlegen (die Versionsnummer steht im Dateinamen).
+2. **AMS2-Setup-Optimizer_v0.71.exe** hineinlegen (die Versionsnummer steht im Dateinamen).
 3. Fertig – mehr braucht es nicht.
 
 Beim ersten Start legt das Programm diese Dateien selbst neben der EXE ab:
@@ -58,7 +58,7 @@ Beim ersten Start legt das Programm diese Dateien selbst neben der EXE ab:
 | Datei | Inhalt |
 |---|---|
 | box_box.mp3 | Warnton bei wenig Sprit |
-| README_v0.615.md | diese Anleitung (wird über „Hilfe“ angezeigt) |
+| README_v0.71.md | diese Anleitung (wird über „Hilfe“ angezeigt) |
 | ams2_setup_optimizer.json | deine Einstellungen (beim Beenden) |
 | ams2_setup_profiles.json | Profile pro Auto und Ergebnisse pro Auto und Strecke |
 
@@ -71,13 +71,13 @@ Leg den Ordner nicht unter `C:\Programme`, sonst darf das Programm dort nichts s
 ### Update auf eine neue Version
 
 Einfach die alte EXE durch die neue ersetzen. Einstellungen, Profile und deine MP3 bleiben erhalten, die neue README wird automatisch dazugelegt. Welche Version läuft, steht in der Titelzeile.
-Da die Versionsnummer im Dateinamen steht (z. B. AMS2-Setup-Optimizer_v0.62.exe), die alte EXE danach löschen.
+Da die Versionsnummer im Dateinamen steht (z. B. AMS2-Setup-Optimizer_v0.71.exe), die alte EXE danach löschen.
 
 ---
 
 ## Starten
 
-- **Doppelklick auf AMS2-Setup-Optimizer_v0.615.exe.** Am besten vor oder während AMS2 starten – das Programm verbindet sich automatisch, sobald das Spiel läuft.
+- **Doppelklick auf AMS2-Setup-Optimizer_v0.71.exe.** Am besten vor oder während AMS2 starten – das Programm verbindet sich automatisch, sobald das Spiel läuft.
 - Die Datei SharedMemory.h aus dem Spielordner wird automatisch gesucht. Findet das Programm sie nicht, nutzt es eine eingebaute Kopie. Du musst nichts einstellen.
 
 ### Demo-Modus (ohne Spiel)
@@ -123,7 +123,7 @@ Luft- und Streckentemperatur, Sprit Ø pro Runde, letzte Runde, pro Minute, Tank
 
 ### Seitenleiste
 
-- **Profil** – erkanntes Auto, **Rennklasse** (GT3, GT4, Formel/Prototyp, Straßenwagen/Cup) zum schnellen Umstellen, Profilstatus, „Profil speichern“ und „Letztes Mal hier“.
+- **Profil** – erkanntes Auto, **Rennklasse** (GT3, GT4, Formel/Prototyp, Straßenwagen/Cup) zum schnellen Umstellen, Profilstatus, „Profil speichern“, darunter **Renndistanz** und **Optimieren für** (Rennen oder Qualifying) sowie „Letztes Mal hier“.
 - **Auswertung** – Anzahl gültiger Runden und Renndistanz.
 - **Fahrverhalten** – Tabelle Bremsen/Rollen/Gas × langsam/schnell mit Untersteuern (US) und Übersteuern (OS) in Prozent, darunter die zwei wichtigsten Setup-Tipps.
 - **Sprit** – Knopf „⛽ Boxenstopp planen …“ und alle Sprit-Werte im Detail.
@@ -132,7 +132,11 @@ Luft- und Streckentemperatur, Sprit Ø pro Runde, letzte Runde, pro Minute, Tank
 
 ## So optimierst du den Reifendruck
 
-1. Renndistanz in den Einstellungen eintragen (Runden oder Minuten, z. B. 1:30 für 90 Minuten). Im Rennen übernimmt das Tool die Distanz automatisch aus der Session.
+1. Links in der Seitenleiste die **Renndistanz** eintragen (Runden oder Minuten, z. B. 1:30 für 90 Minuten) und unter **Optimieren für** wählen:
+   - **Rennen (Ø Renndistanz):** Der Druck liegt im Schnitt über das ganze Rennen im Ziel – die richtige Wahl für Rennen.
+   - **Qualifying (ab Runde 2):** Der Druck ist schon in der ersten schnellen Runde nach der Out-Lap im Ziel. Dafür braucht es etwas mehr Kaltdruck als im Rennen.
+
+   Im Rennen übernimmt das Tool die Distanz automatisch aus der Session.
 2. Auto in der Box stehen lassen, bis die Karten „Kalt … “ anzeigen können (kalte Reifen).
 3. Losfahren: Out-Lap plus **mindestens 1–2 gezeitete Runden**. Je mehr Runden du fährst, desto zuverlässiger wird die Empfehlung – ab 3 Runden erkennt das Tool, wie sich Druck und Temperatur auf dieser Strecke einpendeln. Fahr dabei möglichst im Renntempo, sonst werden die Reifen nicht so warm wie im Rennen.
 4. Empfehlung ablesen und den Kaltdruck in der Garage entsprechend ändern.
@@ -199,7 +203,7 @@ Knöpfe:
 ## Statistik und CSV-Export
 
 - Reiter **Statistik**: Zusammenfassung (Runden, beste und Ø Runde, Ø Sprit, Unter-/Übersteuern, Stints) und Tabelle aller Runden.
-- **Alle Runden als CSV speichern …** fragt nach dem Speicherort.
+- **Alle Runden als CSV speichern …** fragt nach dem Speicherort (vorgeschlagen wird der Ordner des Programms).
 - **Jede Runde automatisch mitschreiben** fragt einmal nach einer Datei und hängt danach jede fertige Runde an.
 - Die CSV ist für das deutsche Excel formatiert (Semikolon, Dezimalkomma). Ist sie in Excel geöffnet, versucht das Tool es automatisch erneut.
 
@@ -207,11 +211,11 @@ Knöpfe:
 
 ## Einstellungen
 
-- **Spalte 1:** Reifen (Vorlage, Druckeinheit, Zieldrücke vorne/hinten, Temperaturfenster, Optimieren für Ø oder Rennende) und Automatik (Renndistanz aus Session, automatisch neu messen bei Wechsel von Auto, Strecke, Session oder Reifenmischung).
+- **Spalte 1:** Reifen (Vorlage, Druckeinheit, Zieldrücke vorne/hinten, Temperaturfenster) und Automatik (Renndistanz aus Session, automatisch neu messen bei Wechsel von Auto, Strecke, Session oder Reifenmischung).
 - **Spalte 2:** Bremsenfenster, Fahrverhalten (Empfindlichkeit, schnell ab km/h, Kalibrierung neu starten) und Datenquelle (SharedMemory.h automatisch, aus Datei oder eingebaut).
-- **Spalte 3:** Rennen und Sprit (Distanz, Einheit, Extrarunden) und Warnung (ab wie vielen Minuten, Audiodatei oder Sprachausgabe, Ansage Bayrisch/Hochdeutsch/eigener Text, Stimme, Test).
+- **Spalte 3:** Sprit (Extrarunden) und Warnung (ab wie vielen Minuten, Audiodatei oder Sprachausgabe, Text der Ansage, Stimme weiblich/männlich, Test).
 
-In eigenen Ansagen wird **{min}** durch die Restminuten ersetzt. Die Windows-Sprachausgabe liest bayrische Texte mit hochdeutscher Aussprache – für echten Dialekt den Spruch selbst als MP3 aufnehmen.
+Die Standard-Ansage lautet „Sprit geht zur Neige!“ und kann frei geändert werden. Im Text wird **{min}** durch die Restminuten ersetzt. Ist keine männliche oder weibliche deutsche Stimme installiert, nimmt das Programm die nächstbeste und zeigt das unter der Auswahl an. Weitere Stimmen (z. B. die männliche Stimme „Stefan“) lassen sich unter Windows-Einstellungen → Zeit und Sprache → Sprachausgabe → Stimmen hinzufügen nachinstallieren. Unter „Diagnose“ stehen alle Stimmen, die das Programm findet.
 
 ---
 
@@ -231,8 +235,35 @@ In eigenen Ansagen wird **{min}** durch die Restminuten ersetzt. Die Windows-Spr
 
 ## Changelog
 
+### v0.71
+- Logo groß und gut erkennbar oben in der Seitenleiste
+
+### v0.7
+- Versionssprung nach den ersten Testfahrten in AMS2 – enthält alle Änderungen bis v0.655
+
+### v0.655
+- Renndistanz und „Optimieren für“ stehen jetzt links in der Seitenleiste unter „Profil speichern“
+- Neuer Modus „Qualifying (ab Runde 2)“: Reifen sind schon in der ersten schnellen Runde optimal. Ersetzt den Modus „Rennende“.
+- THC-Sim-Racing-Logo in der Kopfzeile
+
+### v0.645
+- Sprachausgabe nutzt jetzt auch die neueren Windows-10/11-Stimmen – die männliche Stimme („Stefan“) ist dadurch wählbar
+- „Diagnose“ zeigt alle gefundenen Stimmen
+
+### v0.635
+- CSV-Export schlägt als Speicherort den Ordner des Programms vor
+- Sprachausgabe: Stimme weiblich oder männlich wählbar, neue Standard-Ansage „Sprit geht zur Neige!“
+
+### v0.63
+- Unter-/Übersteuer-Erkennung kalibriert sich bei GT3-Autos jetzt deutlich schneller
+- Verschleiß wird nach einem Reifenwechsel nicht mehr negativ angezeigt
+
+### v0.62
+- Fehlerbehebung Unter-/Übersteuer-Erkennung: Übersteuern stand im Spiel fast immer auf 100 %. Die Erkennung kalibriert sich jetzt nur noch in echten Kurven und wird für jedes Auto einmal neu kalibriert.
+- GT3-Startwerte nach Testfahrten angepasst: Ziel-Heißdruck 1,92 bar, Reifenfenster 65–85 °C. Profile mit den alten, unveränderten GT3-Standardwerten werden automatisch angepasst.
+
 ### v0.615
-- GUI überarbeitet 😉
+- Das Gimmick unten rechts wurde überarbeitet 😉
 
 ### v0.61
 - Ende der Beta-Phase: Versionsnummern ab jetzt ohne „b“
@@ -260,7 +291,7 @@ In eigenen Ansagen wird **{min}** durch die Restminuten ersetzt. Die Windows-Spr
 - Knopf „Demo-Modus starten“ unten links – die Demo läuft in einem zweiten Fenster mit eigenen Einstellungen
 
 ### v0.55b
-- GUI überarbeitet unten rechts im Fenster. Ausprobieren auf eigene Gefahr 😉
+- Ein kleines Gimmick unten rechts im Fenster. Ausprobieren auf eigene Gefahr 😉
 
 ### v0.54b
 - README mit Bedienungsanleitung (für die EXE-Version) und Changelog
@@ -302,11 +333,10 @@ In eigenen Ansagen wird **{min}** durch die Restminuten ersetzt. Die Windows-Spr
 
 **Automobilista 2 Setup Optimizer**
 Entwickelt von MaDDoX für THC Sim Racing.
-Version 0.615 · Oktober 2026
+Version 0.71 · Oktober 2026
 
 © 2026 MaDDoX · THC Sim Racing. Alle Rechte vorbehalten.
 Das THC-Sim-Racing-Logo ist Eigentum von THC Sim Racing.
-The Game Central - Alle Rechte vorbehalten.Das TGC-Logo ist Eigentum von The Game Central.
 
 ## Rechtliches
 
@@ -323,11 +353,8 @@ in keiner Verbindung zu Reiza Studios. „Automobilista 2“ ist eine Marke
 von Reiza Studios. Das Programm liest nur die Telemetrie, die AMS2 über die
 Shared-Memory-Schnittstelle bereitstellt, und verändert nichts am Spiel.
 
-**Kontakt:**
-E-Mail: 
-Website: https://www.TheGameCentral.de
 
-# Automobilista 2 Setup Optimizer – v0.615
+# Automobilista 2 Setup Optimizer – v0.71
 
 © 2026 MaDDoX · THC Sim Racing [THC]
 
