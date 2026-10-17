@@ -1,4 +1,4 @@
-# Automobilista 2 Setup Optimizer – v0.61
+# Automobilista 2 Setup Optimizer – v0.615
 © 2026 MaDDoX · "The Game Central"
 
 Ein Renningenieur für den zweiten Bildschirm. Das Tool liest während der Fahrt die Telemetrie von Automobilista 2 (AMS2) und hilft dir, deine Reifen im Rennen optimal zu nutzen.
@@ -50,7 +50,7 @@ Ein Renningenieur für den zweiten Bildschirm. Das Tool liest während der Fahrt
 ## Installation
 
 1. Einen eigenen Ordner anlegen, z. B. `D:\AMS2 Setup Optimizer`.
-2. **AMS2-Setup-Optimizer_v0.61.exe** hineinlegen (die Versionsnummer steht im Dateinamen).
+2. **AMS2-Setup-Optimizer_v0.615.exe** hineinlegen (die Versionsnummer steht im Dateinamen).
 3. Fertig – mehr braucht es nicht.
 
 Beim ersten Start legt das Programm diese Dateien selbst neben der EXE ab:
@@ -58,7 +58,7 @@ Beim ersten Start legt das Programm diese Dateien selbst neben der EXE ab:
 | Datei | Inhalt |
 |---|---|
 | box_box.mp3 | Warnton bei wenig Sprit |
-| README_v0.61.md | diese Anleitung (wird über „Hilfe“ angezeigt) |
+| README_v0.615.md | diese Anleitung (wird über „Hilfe“ angezeigt) |
 | ams2_setup_optimizer.json | deine Einstellungen (beim Beenden) |
 | ams2_setup_profiles.json | Profile pro Auto und Ergebnisse pro Auto und Strecke |
 
@@ -77,7 +77,7 @@ Da die Versionsnummer im Dateinamen steht (z. B. AMS2-Setup-Optimizer_v0.62.exe)
 
 ## Starten
 
-- **Doppelklick auf AMS2-Setup-Optimizer_v0.61.exe.** Am besten vor oder während AMS2 starten – das Programm verbindet sich automatisch, sobald das Spiel läuft.
+- **Doppelklick auf AMS2-Setup-Optimizer_v0.615.exe.** Am besten vor oder während AMS2 starten – das Programm verbindet sich automatisch, sobald das Spiel läuft.
 - Die Datei SharedMemory.h aus dem Spielordner wird automatisch gesucht. Findet das Programm sie nicht, nutzt es eine eingebaute Kopie. Du musst nichts einstellen.
 
 ### Demo-Modus (ohne Spiel)
@@ -231,6 +231,9 @@ In eigenen Ansagen wird **{min}** durch die Restminuten ersetzt. Die Windows-Spr
 
 ## Changelog
 
+### v0.615
+- GUI überarbeitet 😉
+
 ### v0.61
 - Ende der Beta-Phase: Versionsnummern ab jetzt ohne „b“
 - Neuer Reiter „Profile“: alle gespeicherten Autos mit Werten und Ergebnissen pro Strecke, Profile und einzelne Ergebnisse löschbar, Werte auf das aktuelle Auto übertragbar
@@ -257,7 +260,7 @@ In eigenen Ansagen wird **{min}** durch die Restminuten ersetzt. Die Windows-Spr
 - Knopf „Demo-Modus starten“ unten links – die Demo läuft in einem zweiten Fenster mit eigenen Einstellungen
 
 ### v0.55b
-- Ein kleines Gimmick unten rechts im Fenster. Ausprobieren auf eigene Gefahr 😉
+- GUI überarbeitet unten rechts im Fenster. Ausprobieren auf eigene Gefahr 😉
 
 ### v0.54b
 - README mit Bedienungsanleitung (für die EXE-Version) und Changelog
@@ -299,10 +302,11 @@ In eigenen Ansagen wird **{min}** durch die Restminuten ersetzt. Die Windows-Spr
 
 **Automobilista 2 Setup Optimizer**
 Entwickelt von MaDDoX für THC Sim Racing.
-Version 0.61 · Oktober 2026
+Version 0.615 · Oktober 2026
 
 © 2026 MaDDoX · THC Sim Racing. Alle Rechte vorbehalten.
 Das THC-Sim-Racing-Logo ist Eigentum von THC Sim Racing.
+The Game Central - Alle Rechte vorbehalten.Das TGC-Logo ist Eigentum von The Game Central.
 
 ## Rechtliches
 
@@ -320,10 +324,10 @@ von Reiza Studios. Das Programm liest nur die Telemetrie, die AMS2 über die
 Shared-Memory-Schnittstelle bereitstellt, und verändert nichts am Spiel.
 
 **Kontakt:**
-E-Mail: towi@thegamecentral.de
-Website:www.TheGameCentral.de
+E-Mail: 
+Website: https://www.TheGameCentral.de
 
-# Automobilista 2 Setup Optimizer – v0.61
+# Automobilista 2 Setup Optimizer – v0.615
 
 © 2026 MaDDoX · THC Sim Racing [THC]
 
