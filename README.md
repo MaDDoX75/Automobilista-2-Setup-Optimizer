@@ -1,4 +1,4 @@
-<img width="704" height="384" alt="AMS2SO_lg2" src="https://github.com/user-attachments/assets/b080b14c-4dc6-46ad-a3e5-5fd3bfdbc32a" />
+<img width="1376" height="768" alt="AMS2SO_bg" src="https://github.com/user-attachments/assets/7b37b84e-216b-467c-b038-70537428e017" />
 
 # 🏁 Automobilista 2 Setup Optimizer
 
