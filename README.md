@@ -70,7 +70,7 @@ Neue Versionen erscheinen unter **[Releases](https://github.com/MaDDoX75/Automob
 
 ## ⚖️ Rechtliches
 
-© 2026 MaDDoX · THC Sim Racing. Alle Rechte vorbehalten.  
+© 2026 MaDDoX Alle Rechte vorbehalten.  
 Das THC-Sim-Racing-Logo ist Eigentum von THC Sim Racing.  
 The Game Central [TGC] sowie die TGC-Logos sind Eigentum von MaDDoX.
 
