@@ -1,4 +1,4 @@
-# Automobilista 2 Setup Optimizer – v0.615
+# Automobilista 2 Setup Optimizer
 © 2026 MaDDoX · "The Game Central"
 
 Ein Renningenieur für den zweiten Bildschirm. Das Tool liest während der Fahrt die Telemetrie von Automobilista 2 (AMS2) und hilft dir, deine Reifen im Rennen optimal zu nutzen.
