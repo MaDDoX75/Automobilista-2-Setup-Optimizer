@@ -16,12 +16,16 @@ Der Setup Optimizer liest während der Fahrt die Telemetrie von **Automobilista 
 - Optimiert wahlweise für das **Rennen** (Ø über die Renndistanz) oder das **Qualifying** (optimal ab der ersten schnellen Runde)
 - Erfasst den eingestellten Kaltdruck automatisch in der Box und zeigt direkt den neuen Zielwert
 - Merkt sich pro Auto und Strecke, was beim **letzten Mal** gepasst hat
+- Rechnet auf die **Rennbedingungen** um: Asphalttemperatur im Rennen eintragen, fertig
 - Abgestimmt auf die **GT3-Klasse**, Vorlagen auch für GT4, Formel/Prototyp und Straßenwagen/Cup
 
 ### ⛽ Sprit & Boxenstopps
 - Verbrauch pro Runde und Minute, Reichweite, benötigte Liter für die Renndistanz
 - **Boxenstopp-Manager:** Stopps automatisch oder nach Runde planen, Nachtank-Menge pro Stopp
 - Live-Anzeige *„BOX AM ENDE DIESER RUNDE – 14,2 L nachtanken“*
+- Startsprit vorgeben und sehen, wann du spätestens rein musst – inklusive Hinweis zum Reifenwechsel
+- **Sprachansagen:** Boxenstopp-Plan vor dem Rennen, „In 3 Runden Boxenstopp, 31 Liter nachtanken“, Empfehlungen nach jeder Runde
+- **Status-Ansage auf Knopfdruck** – Taste frei belegbar auf Tastatur, Lenkrad oder Buttonbox
 - Warnung bei knappem Sprit per **„Box Box“-Sound** oder **Sprachansage**
 
 ### 🏎️ Fahrverhalten & Bremsen
@@ -29,7 +33,8 @@ Der Setup Optimizer liest während der Fahrt die Telemetrie von **Automobilista 
 - Bremstemperaturen mit Hinweisen zu den Bremskühlschächten
 
 ### 📊 Und außerdem
-- Statistik aller Runden und **CSV-Export** für Excel
+- Statistik aller Runden, **CSV-Export** für Excel und **Rennbericht**
+- Profile **exportieren und importieren** – Setups mit Kumpels teilen, Notizen pro Strecke
 - Profile pro Auto, **Großanzeige** (F11) für den zweiten Bildschirm, dunkles Design
 - Kurze **Erklärungen per Tooltip** an allen Knöpfen und Eingabefeldern
 - **Demo-Modus** zum Ausprobieren ohne Spiel
