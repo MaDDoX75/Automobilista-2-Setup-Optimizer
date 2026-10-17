@@ -2,7 +2,7 @@
 
 # 🏁 Automobilista 2 Setup Optimizer
 
-Dein Renningenieur für den zweiten Bildschirm – by MaDDoX
+Dein Renningenieur für den zweiten Bildschirm – by MaDDoX 
 
 Der Setup Optimizer liest während der Fahrt die Telemetrie von **Automobilista 2** und sagt dir, mit welchem **Reifendruck** du ins Rennen gehen solltest. Ein paar Testrunden fahren, Empfehlung ablesen, in der Garage einstellen – fertig. Dazu kommen Spritrechner, Boxenstopp-Planer und eine Unter-/Übersteuer-Erkennung.
 
@@ -66,13 +66,13 @@ Keine Installation nötig – eine einzige Datei. Anleitung, Warnton und Einstel
 
 ## 🔄 Updates
 
-Neue Versionen erscheinen unter **[Releases](https://github.com/MaDDoX75/Automobilista-2-Setup-Optimizer/releases)** – jeweils mit Changelog. Zum Aktualisieren die neue EXE in denselben Ordner legen und die alte löschen. Einstellungen und Profile bleiben erhalten.
+Das Programm prüft beim Start automatisch auf neue Versionen (abschaltbar) und kann sie direkt installieren. Neue Versionen erscheinen außerdem unter **[Releases](https://github.com/MaDDoX75/Automobilista-2-Setup-Optimizer/releases)** – jeweils mit Changelog. Einstellungen und Profile bleiben erhalten.
 
 ---
 
 ## ⚖️ Rechtliches
 
-© 2026 MaDDoX Alle Rechte vorbehalten.  
+© 2026 MaDDoX · THC Sim Racing. Alle Rechte vorbehalten.  
 Das THC-Sim-Racing-Logo ist Eigentum von THC Sim Racing.  
 The Game Central [TGC] sowie die TGC-Logos sind Eigentum von MaDDoX.
 
