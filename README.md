@@ -1,4 +1,5 @@
-<img width="704" height="384" alt="AMS2SO_lg" src="https://github.com/user-attachments/assets/4436f4fc-ae18-4a27-8f31-dae309cd629c" />
+<img width="704" height="384" alt="AMS2SO_lg2" src="https://github.com/user-attachments/assets/b080b14c-4dc6-46ad-a3e5-5fd3bfdbc32a" />
+
 # 🏁 Automobilista 2 Setup Optimizer
 
 **Dein Renningenieur für den zweiten Bildschirm – by MaDDoX · THC Sim Racing**
