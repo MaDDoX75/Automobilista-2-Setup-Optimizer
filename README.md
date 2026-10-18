@@ -1,8 +1,8 @@
 <img width="1376" height="768" alt="AMS2SO_bg" src="https://github.com/user-attachments/assets/7b37b84e-216b-467c-b038-70537428e017" />
 
-# 🏁 Automobilista 2 Setup Optimizer
+🏁 Automobilista 2 Setup Optimizer
 
-Dein Renningenieur für den zweiten Bildschirm – by MaDDoX 
+Dein Renningenieur für den zweiten Bildschirm – by MaDDoX
 
 Der Setup Optimizer liest während der Fahrt die Telemetrie von **Automobilista 2** und sagt dir, mit welchem **Reifendruck** du ins Rennen gehen solltest. Ein paar Testrunden fahren, Empfehlung ablesen, in der Garage einstellen – fertig. Dazu kommen Spritrechner, Boxenstopp-Planer und eine Unter-/Übersteuer-Erkennung.
 
@@ -36,6 +36,7 @@ Der Setup Optimizer liest während der Fahrt die Telemetrie von **Automobilista 
 
 ### 📊 Und außerdem
 - Statistik aller Runden, **CSV-Export** für Excel und **Rennbericht**
+- **Fahrwerks-Daten** in der CSV (Bodenfreiheit, Aero-Absenkung, Federweg, Sturz-Temperaturen …) und **Setup eintragen** im Aufbau des AMS2-Menüs
 - Profile **exportieren und importieren** – Setups mit Kumpels teilen, Notizen pro Strecke
 - Profile pro Auto, **Großanzeige** (F11) für den zweiten Bildschirm, dunkles Design
 - Kurze **Erklärungen per Tooltip** an allen Knöpfen und Eingabefeldern
