@@ -2,11 +2,19 @@
 
 # 🏁 Automobilista 2 Setup Optimizer
 
-**Dein Renningenieur für den zweiten Bildschirm – by MaDDoX**
+**Deine virtuelle Boxencrew – by MaDDoX**
 
-Der Setup Optimizer liest während der Fahrt die Telemetrie von **Automobilista 2** und sagt dir, mit welchem **Reifendruck** du ins Rennen gehen solltest. Ein paar Testrunden fahren, Empfehlung ablesen, in der Garage einstellen – fertig. Dazu kommen Spritrechner, Boxenstopp-Planer, Sprachansagen, Fahrverhaltens-Analyse und die Standard-Setups der GT3-Autos.
+Der Setup Optimizer liest während der Fahrt die Telemetrie von **Automobilista 2** und sagt dir, mit welchem **Reifendruck** du ins Rennen gehen solltest – auf dem **zweiten Bildschirm** oder unsichtbar im **Hintergrund per Sprachausgabe**. Ein paar Testrunden fahren, Empfehlung ablesen, in der Garage einstellen – fertig. Dazu kommen Spritrechner, Boxenstopp-Planer, Sprachansagen, Fahrverhaltens-Analyse und die Standard-Setups der GT3-Autos.
 
 [![Download](https://img.shields.io/github/v/release/MaDDoX75/Automobilista-2-Setup-Optimizer?label=Download&style=for-the-badge&color=3B82F6)](https://github.com/MaDDoX75/Automobilista-2-Setup-Optimizer/releases/latest)
+
+---
+
+## 💡 Warum dieses Tool?
+
+In **Automobilista 2 kann man Setups nicht von außen bearbeiten** – jede Änderung geht nur im Setup-Menü des Spiels. Wer ernsthaft abstimmt, macht Screenshots, schreibt Werte auf Zettel und vergisst trotzdem, was er vor drei Runden geändert hat.
+
+Der Setup Optimizer füllt genau diese Lücke: Er **zeigt dir, was du im Spiel ändern solltest**, und **dokumentiert jede Änderung samt ihrer Auswirkung** – Reifen, Fahrverhalten, Sprit, Rundenzeit. Keine Screenshots, keine Zettel, alles an einem Ort.
 
 ---
 
@@ -33,13 +41,17 @@ Der Setup Optimizer liest während der Fahrt die Telemetrie von **Automobilista 
 - Merkt sich den **Verbrauch pro Auto und Strecke** – warst du schon mal dort, ist der Planer sofort startklar
 - **Boxenstopp-Manager:** Stopps automatisch, nach Runde oder per **Startsprit** planen, Nachtank-Menge pro Stopp, Hinweis zum Reifenwechsel
 - Live-Anzeige *„BOX AM ENDE DIESER RUNDE – 14,2 L nachtanken“*
+- **Pflicht-Boxenstopp** wird erkannt bzw. eingetragen und in der Planung berücksichtigt
 - Funktioniert auch auf langen Strecken wie **Nordschleife** und **Le Mans**
 - Warnung bei knappem Sprit per **„Box Box“-Sound** oder **Sprachansage**
 
 ### 🗣️ Sprachansagen
+- **Zwei Stimmen:** eine für den Setup Report, eine für Warnungen und Boxenfunk – am Klang erkennst du sofort, was gemeint ist; mit Probe und Sprechtempo
 - **Setup Report** nach jeder Runde: *„Reifendruck vorne links senken um 0,03 Bar“*, Hinweise zu Bremsen und Bremsschläuchen
 - **Boxenstopp-Plan** wird vor dem Rennen vorgelesen, Ankündigung **x Minuten vorher**: *„In 2 Runden Boxenstopp, 31 Liter nachtanken“*
 - **Status-Ansage auf Knopfdruck** – Taste frei belegbar auf **Tastatur, Lenkrad oder Buttonbox**
+- Ansagen bei **Pflichtstopp** und **Strafen** (Durchfahrt, Stop and Go)
+- Weitere **Stimmen kostenlos** nachinstallieren – direkt aus den Einstellungen
 
 ### 🏎️ Fahrverhalten & Fahrwerk
 - Erkennt **Untersteuern** und **Übersteuern** – getrennt nach Bremsen, Rollen und Gas, langsamen und schnellen Kurven – mit Setup-Tipps
@@ -49,11 +61,12 @@ Der Setup Optimizer liest während der Fahrt die Telemetrie von **Automobilista 
 - **Fahrwerks-Daten** in der CSV: Bodenfreiheit, Aero-Absenkung, Aufsetzer, Federweg, Dämpfer, Randsteine, Roll- und Nickwinkel, Top Speed, Kurven-g u. v. m.
 
 ### 📊 Und außerdem
-- Statistik aller Runden, **CSV-Export** für Excel und **Rennbericht**
+- Statistik aller Runden mit **Session-Art** (Testfahrt, Training, Qualifying, Rennen), **CSV-Export** für Excel und **Rennbericht**
 - Profile pro Auto, **exportieren und importieren** – Setups mit Kumpels teilen, Notizen pro Strecke
 - **Großanzeige** (F11) für den zweiten Bildschirm, **dunkles Design** oder Windows-Standard
-- **Einrichtungs-Assistent** beim ersten Start, **Tooltips** an allen Knöpfen
+- **Einrichtungs-Assistent** beim ersten Start, **Schritt-für-Schritt-Anleitung** in der Hilfe, **Tooltips** an allen Knöpfen
 - **Automatische Updates** über GitHub
+- **Entwickler-Modus** mit Log-Datei für Tester und Fehlersuche
 - **Demo-Modus** zum Ausprobieren ohne Spiel
 
 ---
@@ -65,7 +78,7 @@ Der Setup Optimizer liest während der Fahrt die Telemetrie von **Automobilista 
 3. In AMS2: **Optionen → System → Shared Memory = „Project CARS 2“**
 4. EXE starten, den kurzen Einrichtungs-Assistenten durchklicken, Session in AMS2 starten, losfahren
 
-Keine Installation nötig – eine einzige Datei. Die ausführliche Anleitung findest du im Programm unter **„Hilfe“**.
+Keine Installation nötig – eine einzige Datei. Die ausführliche Anleitung findest du im Programm unter **Hilfe → Anleitung**.
 
 > **Hinweis:** Beim ersten Start meldet Windows evtl. *„Der Computer wurde durch Windows geschützt“*, weil das Programm nicht digital signiert ist. Auf **„Weitere Informationen“ → „Trotzdem ausführen“** klicken.
 
@@ -84,7 +97,7 @@ Keine Installation nötig – eine einzige Datei. Die ausführliche Anleitung fi
 | Mercedes-AMG GT3 Evo | |
 | Porsche 992 GT3 R | |
 
-Low-Downforce-Standard bisher für den McLaren 720S GT3 Evo – weitere folgen. Alle anderen Autos funktionieren genauso, nur ohne vorausgefülltes Standard-Setup.
+Für alle GT3-Gen2-Autos ist zusätzlich der **Low-Downforce-Standard** hinterlegt (Le Mans, Monza, Daytona). Alle anderen Autos funktionieren genauso, nur ohne vorausgefülltes Standard-Setup.
 
 ---
 
