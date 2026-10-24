@@ -1,6 +1,6 @@
 <img width="1376" height="768" alt="AMS2SO_bg" src="https://github.com/user-attachments/assets/7b37b84e-216b-467c-b038-70537428e017" />
 
-# 🏁 Automobilista 2 Setup Optimizer
+🏁 Automobilista 2 Setup Optimizer
 
 **Deine virtuelle Boxencrew – by MaDDoX**
 
@@ -60,6 +60,11 @@ Der Setup Optimizer füllt genau diese Lücke: Er **zeigt dir, was du im Spiel �
 - Bremstemperaturen mit Hinweisen zu den Bremskühlschächten
 - **Fahrwerks-Daten** in der CSV: Bodenfreiheit, Aero-Absenkung, Aufsetzer, Federweg, Dämpfer, Randsteine, Roll- und Nickwinkel, Top Speed, Kurven-g u. v. m.
 
+### 👥 Crew & Discord
+- Am Ende jeder Session **automatisch in euren Discord-Kanal posten**: Übersicht + CSV mit allen Runden (+ Rennbericht)
+- **Fahrername** aus AMS2, **Lauschmodus** für Mitfahrer: unsichtbar im Infobereich aufzeichnen und posten
+- Einfach einzurichten: Webhook-Adresse einfügen, Test-Nachricht senden, fertig
+
 ### 📊 Und außerdem
 - Statistik aller Runden mit **Session-Art** (Testfahrt, Training, Qualifying, Rennen), **CSV-Export** für Excel und **Rennbericht**
 - Profile pro Auto, **exportieren und importieren** – Setups mit Kumpels teilen, Notizen pro Strecke
@@ -73,10 +78,11 @@ Der Setup Optimizer füllt genau diese Lücke: Er **zeigt dir, was du im Spiel �
 
 ## 🚀 Schnellstart
 
-1. **[Neueste Version herunterladen](https://github.com/MaDDoX75/Automobilista-2-Setup-Optimizer/releases/latest)** – unter *Assets* die `AMS2-Setup-Optimizer_vX.XX.exe`
+1. **[Neueste Version herunterladen](https://github.com/MaDDoX75/Automobilista-2-Setup-Optimizer/releases/latest)** – unter *Assets* die `AMS2-Setup-Optimizer.exe`
 2. In einen **eigenen Ordner** legen (nicht unter `C:\Programme`)
 3. In AMS2: **Optionen → System → Shared Memory = „Project CARS 2“**
-4. EXE starten, den kurzen Einrichtungs-Assistenten durchklicken, Session in AMS2 starten, losfahren
+4. EXE starten, den kurzen Einrichtungs-Assistenten durchklicken (legt auf Wunsch eine Desktop-Verknüpfung an), Session in AMS2 starten, losfahren
+5. Optional: Den Code aus Einstellungen → Programm starten in die Steam-Startoptionen von AMS2 kopieren – dann startet das Tool mit dem Spiel
 
 Keine Installation nötig – eine einzige Datei. Die ausführliche Anleitung findest du im Programm unter **Hilfe → Anleitung**.
 
@@ -111,7 +117,7 @@ Für alle GT3-Gen2-Autos ist zusätzlich der **Low-Downforce-Standard** hinterle
 
 ## 🔄 Updates
 
-Das Programm prüft beim Start automatisch auf neue Versionen (abschaltbar) und kann sie direkt installieren. In der Hilfe gibt es dafür auch den Knopf **„Auf Updates prüfen“**. Alle Versionen mit Changelog stehen unter **[Releases](https://github.com/MaDDoX75/Automobilista-2-Setup-Optimizer/releases)**. Einstellungen und Profile bleiben bei einem Update erhalten.
+Das Programm prüft beim Start automatisch auf neue Versionen (abschaltbar) und kann sie direkt installieren. Vorher **sichert es die laufende Version** – macht ein Update Probleme, geht es unter Einstellungen → Updates mit einem Klick zurück. Der Dateiname bleibt immer `AMS2-Setup-Optimizer.exe`, Verknüpfungen bleiben also gültig. In der Hilfe gibt es dafür auch den Knopf **„Auf Updates prüfen“**. Alle Versionen mit Changelog stehen unter **[Releases](https://github.com/MaDDoX75/Automobilista-2-Setup-Optimizer/releases)**. Einstellungen und Profile bleiben bei einem Update erhalten.
 
 ---
 
